@@ -1,0 +1,72 @@
+header {
+	display: flex;
+}
+
+footer {
+	display: flex;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid white;
+	text-align: left;
+}
+
+#leftHeader {
+	text-align: center;
+	width: 75%;
+	height: 150px;
+	font-size: 200%;
+	float: left;
+}
+
+#rightHeader {
+	width: 25%;
+	height: 150px;
+	float: right;
+}
+
+section {
+	background-color: rgb(128, 0, 0);
+	padding: 50px;
+	text-transform: uppercase;
+}
+
+#leftFooter {
+	width: 20%;
+	padding-top: 90px;
+	float: left;
+}
+
+#rightFooter {
+	width: 20%;
+	padding-top: 90px;
+	float: right;
+}
+
+#centerFooter {
+	text-align: center;
+	width: 60%;
+	float: center;
+}
+
+body {
+	font-family: "Arial";
+	background-color: rgb(244, 164, 94);
+	color: white;
+}
+
+p {
+	font-size: 150%;
+}
+
+p.dotted {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: rgb(192, 192, 192);
+	padding: 5px;
+}
